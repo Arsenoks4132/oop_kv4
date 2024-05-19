@@ -4,12 +4,12 @@
 
 using namespace std;
 
-class Block_5 : public Base {
-	public:
-		Block_5(Base* ptr, string nm = "StandartName");
-		void signal(string& message);
-		void handler(string message);
+class Block_5 : public Base
+{
+public:
+	Block_5(Base *ptr, string nm = "StandartName");
+	void signal(string &message);
+	void handler(string message);
 };
-
 
 #endif
